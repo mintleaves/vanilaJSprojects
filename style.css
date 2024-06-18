@@ -1,0 +1,112 @@
+.heading {
+  font-size: 40px;
+  color: rgb(0, 4, 255);
+  font-style: italic;
+  text-align: center;
+}
+
+.source_change_img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+#block_element {
+  display: none;
+}
+#demo5 {
+  border: 2px solid green;
+}
+
+/* ====== VANILA JAVASCRIPT PROJECTS ===== */
+nav > ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+/* RANDOM BACKGROUND */
+#main_container {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#main_container > h1 {
+  text-align: center;
+}
+#bg_color_name {
+  text-transform: capitalize;
+}
+#bg_color_btn {
+  padding: 15px 25px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+/* OUR REVIEWS */
+.reviews_container {
+  background-color: rgb(133, 224, 224);
+  height: 100vh;
+  text-align: center;
+  padding-inline: 100px;
+}
+.reviews_container > h1 {
+  border-bottom: 2px solid rgb(92, 168, 255);
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.review_container {
+  background: rgb(206, 243, 245);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  transition: transform 1s, opacity 1s;
+}
+.review_container.animate {
+  transform: translate(100px, 100px) rotate(720deg) scale(1.5);
+  opacity: 0.8;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+.review_profile {
+  display: flex;
+  justify-content: center;
+}
+.review_arrow_btns {
+  margin-bottom: 10px;
+}
+#review_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: drop-shadow(0.35rem -0.35rem rgb(92, 168, 255));
+}
+.text_skyblue {
+  color: rgb(92, 168, 255);
+}
+#review_name {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+#review_profession {
+  text-transform: uppercase;
+}
+.arrow_btn {
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background: none;
+}
+.arrow_btn:hover {
+  background-color: rgb(210, 230, 230);
+  border: 2px solid rgb(92, 168, 255);
+}
+#surprise_btn {
+  background: rgb(210, 230, 230);
+  border: 2px solid rgb(92, 168, 255);
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgb(104, 167, 240);
+}

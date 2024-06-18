@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>W3school || JS</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="navList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="w3school.html">W3</a></li>
+        <li><a href="vanilaJS.html">Vanila JS</a></li>
+      </ul>
+    </nav>
+    <h1 class="heading">Learning Javascript Seriously fron june 02, 2024.</h1>
+    <p id="havit">Havit rgb membrane gaming keyboard</p>
+    <button
+      onclick='document.getElementById("havit").innerHTML = "Royal Kludge RK71 Triple Mode RGB"'
+    >
+      Click to see the magic !!!
+    </button>
+
+    <br />
+    <br />
+
+    <button
+      onclick='document.getElementById("my_vegies").src="images/pic2.jpg"'
+    >
+      Single vegi
+    </button>
+    <img
+      src="images/pic2.jpg"
+      class="source_change_img"
+      id="my_vegies"
+      alt="vegies photo"
+    />
+    <button
+      onclick='document.getElementById("my_vegies").src="images/pic1.jpg"'
+    >
+      Multiple vegies
+    </button>
+    <p id="change_font">JS can change its own font size too !!!</p>
+    <button
+      onclick='document.getElementById("change_font").style.fontSize="35px"'
+    >
+      Change Fontsize
+    </button>
+
+    <br />
+    <br />
+
+    <p id="hide_element">JavaScript can hide elements.</p>
+    <button
+      onclick='document.getElementById("hide_element").style.display="none"'
+    >
+      Click to hide
+    </button>
+
+    <br />
+    <br />
+
+    <p id="block_element">Hello Nira !!!</p>
+    <button
+      onclick="document.getElementById('block_element').style.display='block'"
+    >
+      Click me !!!
+    </button>
+
+    <br />
+    <br />
+
+    <p id="js_in_body"></p>
+    <p id="js_in_head">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try It !!!</button>
+
+    <p id="demo"></p>
+    <button type="button" onclick="document.write(6+6)">Try It !!!</button>
+
+    <button onclick="window.print()">Print the page</button>
+
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo5"></p>
+    <p id="demo4"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <p id="demo9"></p>
+    <p id="demo10"></p>
+    <p id="demo11"></p>
+    <p id="demo12"></p>
+
+    <button onclick="document.getElementById('demo12').innerHTML = Date()">
+      The time is ?
+    </button>
+
+    <button onclick="this.innerHTML = Date()">The time is ???</button>
+
+    <button onmouseover="this.style.backgroundColor='red'">Mouse Over</button>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
